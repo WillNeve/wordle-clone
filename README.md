@@ -1,4 +1,4 @@
-# Willdle: A Wordle clone
+# Willdle: A Wordle clone 🟩🟨⬛
 
 ### What is it?
 

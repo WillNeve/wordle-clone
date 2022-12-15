@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='script.js' defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@700&family=Stardos+Stencil:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='stylev2.css'>
+    <title>wordle clone</title>
+</head>
+<header>
+    <a class="shareShow"><i class="fa-solid fa-users"></i></a>
+    <h2>Will'dle</h2>
+    <a class="hint">?</a>
+</header>
+<body>
+    <div class='defCont'>
+        <h2 class="defWord">Word</h2>
+        <h4 class="defPhon">Phonetic</h4>
+        <h3>Definition/s:</h3>
+        <div class="defList">
+            <!-- <p>def</p>
+            <p>def</p>
+            <p>def</p> -->
+        </div>
+        <a class="defClose"><i class="fa-solid fa-xmark"></i></a>
+    </div>
+    <div class="shareCont">
+        <h3 id="shareTitle">Complete the Will'dle to get your score!</h3>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam elementum, augue quis blandit maximus, neque ligula lobortis neque, dignissim gravida.</p> -->
+        <!-- <a id="shareButton"><i class="fa-solid fa-copy"></i></a> -->
+        <a class="shareClose"><i class="fa-solid fa-xmark"></i></a>
+    </div>
+    <div class="gridCont">
+        <div class='gridRow'>
+            <input class="row1 square" type="text">
+            <input class="row1 square" type="text">
+            <input class="row1 square" type="text">
+            <input class="row1 square" type="text">
+            <input class="row1 square" type="text">
+        </div>
+        <div class='gridRow'>
+            <input class="row2 square" type="text">
+            <input class="row2 square" type="text">
+            <input class="row2 square" type="text">
+            <input class="row2 square" type="text">
+            <input class="row2 square" type="text">
+        </div>
+        <div class='gridRow'>
+            <input class="row3 square" type="text">
+            <input class="row3 square" type="text">
+            <input class="row3 square" type="text">
+            <input class="row3 square" type="text">
+            <input class="row3 square" type="text">
+        </div>
+        <div class='gridRow'>
+            <input class="row4 square" type="text">
+            <input class="row4 square" type="text">
+            <input class="row4 square" type="text">
+            <input class="row4 square" type="text">
+            <input class="row4 square" type="text">
+        </div>
+        <div class='gridRow'>
+            <input class="row5 square" type="text">
+            <input class="row5 square" type="text">
+            <input class="row5 square" type="text">
+            <input class="row5 square" type="text">
+            <input class="row5 square" type="text">
+        </div>
+        <div class='gridRow'>
+            <input class="row6 square" type="text">
+            <input class="row6 square" type="text">
+            <input class="row6 square" type="text">
+            <input class="row6 square" type="text">
+            <input class="row6 square" type="text">
+        </div>
+        <a class="definitionButton">&#60; Word Definition</a>
+    </div>
+    <div class="keyBoard">
+        <div class="kRow row1">
+            <a class="key letR">Q</a>
+            <a class="key letR">W</a>
+            <a class="key letR">E</a>
+            <a class="key letR">R</a>
+            <a class="key letR">T</a>
+            <a class="key letR">Y</a>
+            <a class="key letR">U</a>
+            <a class="key letR">I</a>
+            <a class="key letR">O</a>
+            <a class="key letR">P</a>
+        </div>
+
+        <div class="kRow row2">
+            <a class="key letR">A</a>
+            <a class="key letR">S</a>
+            <a class="key letR">D</a>
+            <a class="key letR">F</a>
+            <a class="key letR">G</a>
+            <a class="key letR">H</a>
+            <a class="key letR">J</a>
+            <a class="key letR">K</a>
+            <a class="key letR">L</a>
+        </div>
+
+        <div class="kRow row3">
+            <a class="key kEnt">Enter</a>
+            <a class="key letR">Z</a>
+            <a class="key letR">X</a>
+            <a class="key letR">C</a>
+            <a class="key letR">V</a>
+            <a class="key letR">B</a>
+            <a class="key letR">N</a>
+            <a class="key letR">M</a>
+            <a class="key"><i class="fa-solid fa-delete-left"></i></a>
+        </div>
+    </div>
+</body>
+</html>
